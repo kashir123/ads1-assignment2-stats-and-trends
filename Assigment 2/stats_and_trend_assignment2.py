@@ -97,6 +97,9 @@ def create_bar_chart(df,xlabel,ylabel,title):
     plt.show()
     
 def create_line_chart(df, title, ylabel, xlabel) :
+    """
+    This function will take dataset, title's as inputand produce line chart'
+    """
     #list of countries
     countries = ['United States', 'China', 'India', 'Brazil'
                  , 'Japan', 'Germany', 'United Kingdom']
